@@ -23,6 +23,7 @@ const ToggleInnerContainer = styled.div`
   position: absolute;
   left: ${props => props.toggled === 'no' ? "0" : `${props.outerWidth - props.size}px`};
   transition: all 0.3s ease;
+  cursor: pointer;
 `;
 
 function Slider() {
