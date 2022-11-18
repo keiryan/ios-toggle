@@ -7,21 +7,24 @@ Here is a list of props that can be passed on the toggled to easily customize th
 const toggledSettings = {
     toggled: false, // The boolean value the toggle relies on.
     container: {
-      outerHeight: 30, // Specifies the height dimensions of the outer container. This value measurement is **pixels**.
-      outerWidth: 60 // Specifies the width dimensions of the outer container. This value measurement is **pixels**.
-      toggledColor: 'blue', // Specifies the outer container background color when the toggle _is_ toggled.
-      defaultColor: 'red', // Specifies the outer container background color when the toggle is _not_ toggled. 
+      outerHeight: 30, // Specifies the height dimensions of the outer container. This value measurement is pixels.
+      outerWidth: 60 // Specifies the width dimensions of the outer container. This value measurement is pixels.
+      toggledColor: 'blue', // Specifies the outer container background color when the toggle is toggled.
+      defaultColor: 'red', // Specifies the outer container background color when the toggle is not toggled. 
 
     },
     inner: {
-      toggledColor: 'blue', // Specifies the inner circle background color when the toggle _is_ toggled.
-      defaultColor: 'red', // Specifies the inner circle background color when the toggle is _not_ toggled.
+      toggledColor: 'blue', // Specifies the inner circle background color when the toggle is toggled.
+      defaultColor: 'red', // Specifies the inner circle background color when the toggle is not toggled.
     }
   };
 
 ```
 
-All color props support RGBA, RGB, HEX and colors names. If none of these props are passed, defaults are assumed. The defaults measurements are as follows:
+**Note the following:** 
+
+1. The value measurement for all width and height keys is **pixels**. 
+2. All color props support RGBA, RGB, HEX and colors names. If none of these props are passed, defaults are assumed. The defaults measurements are as follows:
 
 ```
 
