@@ -45,6 +45,6 @@ const toggledSettings = {
 
 ```
 
-Live demo here: https://ios-toggle.vercel.app/
+ Live demo here: https://ios-toggle.vercel.app/
 
 Live code here: https://codesandbox.io/s/toggle-2-n0emum
