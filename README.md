@@ -1,4 +1,4 @@
-A sleek toggle for a webpage. Done iOS style, and highly reusable. Careful detail was went into crafting this component, including ensuring the cursor is a pointer when interacting with the toggle, and text selection is **not** triggered when interacting with the toggle. The toggle was designed to be highly reusable and customizable, and just all around over-engineered to be honest. 🤣
+A sleek toggle for a webpage. Done iOS style, and highly reusable. Careful detail  went into crafting this component, including ensuring the cursor is a pointer when interacting with the toggle, and text selection is **not** triggered when interacting with the toggle. The toggle was designed to be highly reusable and customizable, and just all around over-engineered to be honest. 🤣
 
 Here is a list of props that can be passed on the toggled to easily customize the toggle appearance:
 
